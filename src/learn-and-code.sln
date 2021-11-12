@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "learn-and-code", "learn-and-code.csproj", "{4E8D2CA5-F6F1-4C52-B0FB-57221DAD60AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "learn-and-code.Tests", "..\learn-and-code.Tests\learn-and-code.Tests.csproj", "{7E02FFC7-88FA-43AE-BEA5-6F59D05AA231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "learn-and-code.Tests", "..\learn-and-code.Tests\learn-and-code.Tests.csproj", "{7E02FFC7-88FA-43AE-BEA5-6F59D05AA231}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4F3020CC-F0E6-40C5-8860-3F4A21770DEB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

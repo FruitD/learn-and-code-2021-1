@@ -24,4 +24,8 @@
     <ProjectReference Include="..\src\learn-and-code.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+  <AdditionalFiles Include="CodeMetricsConfig.txt" />
+  </ItemGroup>
+
 </Project>

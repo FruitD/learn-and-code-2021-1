@@ -6,4 +6,24 @@
     <RootNamespace>learn_and_code</RootNamespace>
   </PropertyGroup>
 
+<ItemGroup>
+  <AdditionalFiles Include="CodeMetricsConfig.txt" />
+</ItemGroup>
+
+<PropertyGroup>
+  <EnableNETAnalyzers>true</EnableNETAnalyzers>
+</PropertyGroup>
+
+
+<!--
+Nuget Package
+
+<ItemGroup>
+  <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="6.0.0">
+    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    <PrivateAssets>all</PrivateAssets>
+  </PackageReference>
+</ItemGroup>
+-->
+
 </Project>
